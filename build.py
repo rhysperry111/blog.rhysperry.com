@@ -98,7 +98,7 @@ def render_index(posts):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="alternate" type="application/rss+xml" title="Rhys' Blog" href="https://blog.rhysperry.com/feed.xml" />
-<title>Blog - {SITE_TITLE}</title>
+<title>{SITE_TITLE}</title>
 {STYLE}
 </head>
 <body>
