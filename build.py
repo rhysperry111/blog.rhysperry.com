@@ -71,6 +71,7 @@ def render_post(post):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="alternate" type="application/rss+xml" title="Rhys' Blog" href="https://blog.rhysperry.com/feed.xml" />
 <title>{post['title']} - {SITE_TITLE}</title>
 {STYLE}
 </head>
@@ -96,6 +97,7 @@ def render_index(posts):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="alternate" type="application/rss+xml" title="Rhys' Blog" href="https://blog.rhysperry.com/feed.xml" />
 <title>Blog - {SITE_TITLE}</title>
 {STYLE}
 </head>
