@@ -18,7 +18,7 @@ After looking around at the various options, anything from the [Dell PowerEdge C
 
 ![Ebay listing](/static/homelab-hardware/ebay.png)
 
-After a few weeks of searching I found an impossibly good price for one (update Mar 2026: yeah... the same device is ~£900 now) - it seemingly had everything I needed as well so I pulled the trigger and decided to work out the details once it arrived.
+After a few weeks of searching I found an impossibly good price for one at £175 (update Mar 2026: yeah... the same device is ~£900 now) - it seemingly had everything I needed as well so I pulled the trigger and decided to work out the details once it arrived.
 
 # The hardware
 
