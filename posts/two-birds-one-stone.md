@@ -10,7 +10,7 @@ I've been thinking about a few different ways I could make my digital CV, but on
 
 That's fine, but how the hell is an somebody going to navigate this? *Well...*
 
-![Windows 3.1 Program Manager](/static/two-birds-windows-program.png)
+![Windows 3.1 Program Manager](/static/two-birds-one-stone/windows-program.png)
 
 I really like the look of the Windows 3.1 program manager, so I think I'll use something that looks like that for navigation. Everbody loves retro too, so it'll just have to be a big hit.. right?
 
@@ -149,11 +149,11 @@ Now that I have some elements to play with, I need to write up all the CSS to po
 }
 ```
 
-![Stuff looking already close to the Windows 3.1 style](/static/two-birds-first-css.png)
+![Stuff looking already close to the Windows 3.1 style](/static/two-birds-one-stone/first-css.png)
 
 With just a littler bit of CSS it is already getting really close... which is odd given my past experiences with CSS. I might even go as far as saying I *like* working with CSS now, but something inside me says that's going too far.
 
-![Looking almost identical to the 3.1 style](/static/two-birds-next-css.png)
+![Looking almost identical to the 3.1 style](/static/two-birds-one-stone/next-css.png)
 
 I think that's all the CSS I need to do. I did end up tweaking a few things, such as changing the title bar buttons to be images rather than text, jiggled the HTML a bit, making it compliant without "quirks mode" and I also added the 3.1 tiled backgrounds, but overall it was a pretty painless experience.
 
