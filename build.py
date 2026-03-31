@@ -18,8 +18,8 @@ STYLE = """<style>
   body { max-width: 600px; margin: 2rem auto; padding: 0 1rem; font-family: monospace }
   a { color: inherit }
   nav { display: flex; gap: 1rem; margin-bottom: 2rem;}
-  footer { margin-top: 3rem; opacity: 0.6;}
-  .date { opacity: 0.5; }
+  footer { margin-top: 3rem; opacity: 0.65;}
+  .date { opacity: 0.65; }
   pre { overflow-x: auto; padding: 1rem; border: 1px solid; opacity: 0.8 }
   code { font-family: monospace }
   img { max-width: 100% }
