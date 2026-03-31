@@ -163,6 +163,9 @@ def build():
     if static_dir.exists():
         shutil.copytree(static_dir, OUT_DIR / "static")
 
+    robots_txt = Path("robots.txt")
+    shutil.copyfile(robots_txt, OUT_DIR / "robots.txt")
+
     (OUT_DIR / "index.html").write_text(render_index(posts))
 
     (OUT_DIR / "feed.xml").write_text(render_rss(posts))

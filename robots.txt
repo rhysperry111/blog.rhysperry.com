@@ -1,0 +1,3 @@
+# Beep bop. Move right on...
+User-agent: *
+Allow: /
