@@ -45,7 +45,7 @@ The fans that came in the server were an odd size - 60mm square and 40mm deep, a
 
 ![New fans installed](/static/homelab-hardware/new-fans.png)
 
-Installing the fans was... interesting. I was able to take the foam off of the old fans and stick it back to the Noctua ones to allow them to slot into the same place on the chassis, but the power connector situation proved a bit tricky. With a little dupont connector fuckery (literally shaving them down on one corner to fit them into the weird PCIE-power-ish connector I got things working though.
+Installing the fans was... interesting. I was able to take the foam off of the old fans and stick it back to the Noctua ones to allow them to slot into the same place on the chassis, but the power connector situation proved a bit tricky. With a little dupont connector fuckery (literally shaving them down on one corner to fit them into the weird PCIE-power-ish connector) I got things working though.
 
 Once the fans were installed I booted the server back up, and to my surprise... everything seemed to work? The chassis was even able to read the fan speeds correctly, and while it became pretty apparent that the BMC would not be turning the fans below 100% speed ever, this was still a lot quieter than the old fans, and barely audible once the server was closed.
 
