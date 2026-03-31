@@ -27,6 +27,7 @@ Once the hardware arrived (and I worked out how to haul 2 giant boxes up the sta
 ![First look at node after unboxing](/static/homelab-hardware/unbox.jpg)
 
 The spec as delivered was (with 4x for the chassis-total):
+
 - 2x Intel(R) Xeon(R) CPU E5-2630 v3 -> 32c64t @2.4GHz
 - 32GB DDR4 -> 128GB DDR4
 
