@@ -4,7 +4,7 @@
 
 Did somebody say server? Wait server cluster? Multi-node server chassis?!?!? Count me in.
 
-# The eBay find
+## The eBay find
 
 Every once in a while I like to peruse eBay for interesting deals, and a few weeks ago I got interested in a specific type of server...
 
@@ -20,7 +20,7 @@ After looking around at the various options, anything from the [Dell PowerEdge C
 
 After a few weeks of searching I found an impossibly good price for one at £175 (update Mar 2026: yeah... the same device is ~£900 now) - it seemingly had everything I needed as well so I pulled the trigger and decided to work out the details once it arrived.
 
-# The hardware
+## The hardware
 
 Once the hardware arrived (and I worked out how to haul 2 giant boxes up the stairs) I gave it a very quick check over.
 
@@ -33,7 +33,7 @@ The spec as delivered was (with 4x for the chassis-total):
 
 I also had 128GB of RAM and a bunch of drives in my old server, but until I had migrated the workload off of that it had to stay intact for now, and that's a story for my next blog post :)
 
-# Fans go brrr... too much brrr
+## Fans go brrr... too much brrr
 
 Another thing I noticed was that despite me thinking that node servers should have been the more manageable, quieter cousin to blade servers... that might have just been me finding an excuse to purchase some cool hardware. In reality, when the servers were booted they would run their fans at near 100% all the time (and these are some of the beefier server fans I've had the misfortune of dealing with), with absolutely no way to spin them down even through IPMI as fan control was handled by the interface-less chassis and not the nodes.
 
