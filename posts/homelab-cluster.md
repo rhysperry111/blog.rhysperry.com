@@ -37,7 +37,7 @@ Each node has a NIC with 2xSFP+ ports on the back, so I also got the networking 
 
 Running through the Proxmox install was easy as anything - just boot the server from the installation ISO, tell the server to install to the SSD, give it a hostname and IP, then set a password, and bang. Done. Reboot and we're all fine and dandy right?
 
-Wrong. Reboot and no bootable device found... huh? Well after a bit of digging around it turns out that even though the server is modern enough support NVMe drives... it doesn't support them as boot drives. Fuck.
+Wrong. Reboot and no bootable device found... huh? Well after a bit of digging around it turns out that even though the server is modern enough support NVMe drives... it doesn't support them as boot drives. Ruh roh.
 
 ![PCIe riser with MicroSD card slot](/static/homelab-cluster/microsd.png)
 
