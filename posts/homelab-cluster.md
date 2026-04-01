@@ -75,7 +75,7 @@ Actually migrating the VMs was almost *too* simple. Just right click the VM, cli
 
 Finally, once all the VMs had been moved across to the new servers, I was ready to shut down all the servers, and gut the hardware from the old server to be reused in the new servers. I was able to double the amount of RAM in each node (yippee), giving me 256GB across the cluster, and I then moved the 8 drives from the old server to be spread out amongst the nodes with 2 in each.
 
-> I should also note that there was quite a complicated step in between here and the next step... reflashing the inbuilt RAID cards to use generic HBA firmware to ensure that the OS and CEPH got full control of the drives without any middleware fuckery. I've realised that I didn't actually document any of that process at the time of doing it, but I may at some point in the future write a short blog post about it if I feel it might be useful.
+> *I should also note that there was quite a complicated step in between here and the next step... reflashing the inbuilt RAID cards to use generic HBA firmware to ensure that the OS and CEPH got full control of the drives without any middleware fuckery. I've realised that I didn't actually document any of that process at the time of doing it, but I may at some point in the future write a short blog post about it if I feel it might be useful.*
 
 ## Playing around with CEPH
 
