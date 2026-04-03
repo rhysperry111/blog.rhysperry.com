@@ -10,7 +10,7 @@ I love terraform... like reeeeeally love terraform... how nicely does it play wi
 
 As mentioned in my [Homelab Upgrade Pt.2 blog post](/homelab-cluster/), I now have a slightly-beefier-than needed Proxmox cluster in my homelab. So far, it's only really been running old VMs that I migrated from my old server, but I'd like to start doing things properly the same way I would do at work - having everything automated with Infrastructure as Code, with the source in Git for a nice audit log (although change-approval might be out of scope given I'm a one-man-band), and CI/CD to deploy changes and ensure that there is no unmanaged drift.
 
-The first step in getting this sorted out is working out how to reliable terraform VMs in Proxmox, and so this blog post will detail that journey.
+The first step in getting this sorted out is working out how to reliably terraform VMs in Proxmox, and so this blog post will detail that journey.
 
 ## Getting started
 
