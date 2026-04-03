@@ -51,7 +51,7 @@ After a fair bit of digging around on GitHub issues (where it seems like I wasn'
 version = "3.0.2-rc07"
 ```
 
-Yeah... it's not great to have your IaC pinning release candidates explicitly, but hey - a dirty solution is better than no solution and day of the week. And you can't really expect me to go around making VMs from the Proxmox UI can you? I'd rather debug funny IaC providers than perform ClickOps like an animal.
+Yeah... it's not great to have your IaC pinning release candidates explicitly, but hey - a dirty solution is better than no solution any day of the week. And you can't really expect me to go around making VMs from the Proxmox UI can you? I'd rather debug funny IaC providers than perform ClickOps like an animal.
 
 ## HA ghosts
 
