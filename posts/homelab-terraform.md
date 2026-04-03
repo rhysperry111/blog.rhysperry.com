@@ -18,7 +18,7 @@ A little surprising given how popular Proxmox is, it doesn't have an official te
 
 > *As a sidenote, even though I'm mentioning "terraform" throughout this post, I'm only doing that to refer to the technology. Software wise everything is actually OpenTofu which is a fork of Terraform that came about after HashiCorp did some license fuckery. You can read more about it [here](https://www.opencoreventures.com/blog/hashicorp-switching-to-bsl-shows-a-need-for-open-charter-companies), [here](https://opentofu.org/blog/our-response-to-hashicorps-cease-and-desist/) and [here](https://www.runtime.news/hashicorps-threats-to-a-terraform-fork-fell-flat-and-might-have-made-it-stronger/), but if you care about FOSS it's worth considering switching.*
 
-Anyway should be simple, just reading the docs the provider just seems to need an API token.
+Anyway this should be simple, reading the docs the provider just seems to need an API token.
 
 ```hcl
 terraform {
