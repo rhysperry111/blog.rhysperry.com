@@ -154,4 +154,4 @@ But why was this behaviour happening? Well the pod gets its `resolv.conf` from t
 
 Simply adding an extra parameter to my VM creation terraform to unset the search domain fixed the problem, and I could finally sleep well knowing that I was a true kubestronaut. The obvious next steps are to get some cool stuff running in kubernetes... but that feels like something I should leave for my next post :)
 
-All of the source code for this can be found in [step 2](https://github.com/rhysperry111/helios-kubernetes/tree/main/02-ansible-install-kubernetes) of my [helios-kubernetes IaC repo](https://github.com/rhysperry111/helios-kubernetes).
+All of the source code for this can be found in [step 2](https://github.com/rhysperry111/helios-kubernetes/tree/main/02-ansible-install-kubernetes) and [step 3](https://github.com/rhysperry111/helios-kubernetes/tree/main/03-terraform-deploy-interfaces) of my [helios-kubernetes IaC repo](https://github.com/rhysperry111/helios-kubernetes).
