@@ -10,6 +10,7 @@ import markdown
 
 SITE_URL = "https://blog.rhysperry.com"
 SITE_TITLE = "Rhys' Blog"
+SITE_AUTHOR = "Rhys Perry"
 POSTS_DIR = Path("posts")
 OUT_DIR = Path("out")
 
@@ -70,6 +71,7 @@ def render_post(post):
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="author" content="{SITE_AUTHOR}">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="alternate" type="application/rss+xml" title="Rhys' Blog" href="https://blog.rhysperry.com/feed.xml" />
 <title>{post['title']} - {SITE_TITLE}</title>
@@ -97,6 +99,8 @@ def render_index(posts):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="{SITE_AUTHOR}">
+<meta name="description" content="Rhys' Blog. Write-ups of things I've been doing and what I've been thinking about. Infrastructure/Network/GitOps/Cyber.">
 <link rel="alternate" type="application/rss+xml" title="Rhys' Blog" href="https://blog.rhysperry.com/feed.xml" />
 <title>{SITE_TITLE}</title>
 {STYLE}
