@@ -169,8 +169,8 @@ def render_rss(posts):
 <rss version="2.0">
   <channel>
     <title>{SITE_TITLE}</title>
-    <link>{SITE_URL}/blog/</link>
-    <description>Blog by {SITE_TITLE}</description>
+    <link>{SITE_URL}</link>
+    <description>Rhys' Blog. Write-ups of things I've been doing and what I've been thinking about. Infrastructure/Network/GitOps/Cyber.</description>
 {items}  </channel>
 </rss>"""
 
