@@ -75,6 +75,23 @@ def render_post(post):
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="alternate" type="application/rss+xml" title="Rhys' Blog" href="https://blog.rhysperry.com/feed.xml" />
 <title>{post['title']} - {SITE_TITLE}</title>
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{post['title']}",
+  "author": {{
+    "@type": "Person",
+    "name": "Rhys Perry",
+    "url": "https://rhysperry.com"
+  }},
+  "publisher": {{
+    "@type": "Person",
+    "name": "Rhys Perry"
+  }},
+  "datePublished": "{post['date_str']}"
+}}
+</script>
 {STYLE}
 </head>
 <body>
@@ -102,6 +119,24 @@ def render_index(posts):
 <meta name="author" content="{SITE_AUTHOR}">
 <meta name="description" content="Rhys' Blog. Write-ups of things I've been doing and what I've been thinking about. Infrastructure/Network/GitOps/Cyber.">
 <link rel="alternate" type="application/rss+xml" title="Rhys' Blog" href="https://blog.rhysperry.com/feed.xml" />
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Rhys' Blog",
+  "url": "https://blog.rhysperry.com/",
+  "description": "Rhys' Blog. Write-ups of things I've been doing and what I've been thinking about. Infrastructure/Network/GitOps/Cyber.",
+  "author": {{
+    "@type": "Person",
+    "name": "Rhys Perry",
+    "url": "https://rhysperry.com"
+  }},
+  "publisher": {{
+    "@type": "Person",
+    "name": "Rhys Perry"
+  }}
+}}
+</script>
 <title>{SITE_TITLE}</title>
 {STYLE}
 </head>
