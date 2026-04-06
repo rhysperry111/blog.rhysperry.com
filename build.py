@@ -117,7 +117,7 @@ def render_index(posts):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="{SITE_AUTHOR}">
-<meta name="description" content="Rhys' Blog. Write-ups of things I've been doing and what I've been thinking about. Infrastructure/Network/GitOps/Cyber.">
+<meta name="description" content="Write-ups of things I've been doing and what I've been thinking about. Infrastructure/Network/GitOps/Cyber.">
 <link rel="alternate" type="application/rss+xml" title="Rhys' Blog" href="https://blog.rhysperry.com/feed.xml" />
 <script type="application/ld+json">
 {{
@@ -125,7 +125,7 @@ def render_index(posts):
   "@type": "Blog",
   "name": "Rhys' Blog",
   "url": "https://blog.rhysperry.com/",
-  "description": "Rhys' Blog. Write-ups of things I've been doing and what I've been thinking about. Infrastructure/Network/GitOps/Cyber.",
+  "description": "Write-ups of things I've been doing and what I've been thinking about. Infrastructure/Network/GitOps/Cyber.",
   "author": {{
     "@type": "Person",
     "name": "Rhys Perry",
@@ -170,7 +170,7 @@ def render_rss(posts):
   <channel>
     <title>{SITE_TITLE}</title>
     <link>{SITE_URL}</link>
-    <description>Rhys' Blog. Write-ups of things I've been doing and what I've been thinking about. Infrastructure/Network/GitOps/Cyber.</description>
+    <description>Write-ups of things I've been doing and what I've been thinking about. Infrastructure/Network/GitOps/Cyber.</description>
 {items}  </channel>
 </rss>"""
 
