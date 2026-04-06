@@ -93,13 +93,6 @@ spec:
               name: banana-service
               port:
                 number: 5678
-        - path: /apple
-          pathType: Prefix
-          backend:
-            service:
-              name: apple-service
-              port:
-                number: 5678
   tls:
     - hosts:
       - fruits.k8s.rhysperry.com
