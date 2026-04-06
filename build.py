@@ -207,6 +207,9 @@ def build():
     robots_txt = Path("robots.txt")
     shutil.copyfile(robots_txt, OUT_DIR / "robots.txt")
 
+    favicon_ico = Path("favicon.ico")
+    shutil.copyfile(favicon_ico, OUT_DIR / "favicon.ico")
+
     (OUT_DIR / "index.html").write_text(render_index(posts))
 
     (OUT_DIR / "feed.xml").write_text(render_rss(posts))
